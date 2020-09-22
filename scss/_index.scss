@@ -1,0 +1,44 @@
+:root {
+  font-size: $root-font-size;
+}
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  color: $body-color;
+  background-color: $body-background-color;
+}
+.container {
+  width: $container-width;
+  background-color: $container-background-color;
+  border: $container-border;
+}
+.header {
+  height: 140px;
+  background-color: red;
+
+  &__heading--style {
+    font-size: $heading-main-font-size;
+    font-family: $heading-main-font-family;
+    color: $heading-main-color;
+  }
+}
+.main {
+  background-color: green;
+  
+  &__heading--secondary-style {
+    font-size: $heading-secondary-font-size;
+    font-family: $heading-secondary-font-family;
+    color: $heading-secondary-color;
+  }
+}
+.aside {
+  background-color: yellow;
+  
+  &__heading--secondary-style {
+    @extend .main__heading--secondary-style;
+  }
+}
+.footer {
+  height: 200px;
+  background-color: blue;
+}
