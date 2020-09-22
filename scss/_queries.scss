@@ -1,0 +1,10 @@
+// Tablet query:
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    margin-left: 0;
+  }
+}
