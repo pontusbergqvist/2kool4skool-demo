@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "bree serif", arial, sans-serif;
+  font-family: "bree serif";
   src: url(../utility/BreeSerif-Regular.woff) format("woff"), url(../utility/BreeSerif-Regular.woff2) format("woff2");
 }
 * {
