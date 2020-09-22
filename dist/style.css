@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "bree serif", arial, sans-serif;
+  src: url(../utility/BreeSerif-Regular.woff) format("woff"), url(../utility/BreeSerif-Regular.woff2) format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
